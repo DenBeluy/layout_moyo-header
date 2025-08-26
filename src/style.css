@@ -1,6 +1,6 @@
 
 html {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -20,7 +20,6 @@ header {
   justify-content: space-between;
   padding: 0 50px;
   align-items: center;
-  text-transform: uppercase;
 }
 
 .nav {
@@ -38,7 +37,6 @@ header {
 
 .nav__item {
   list-style-type: none;
-  margin-left: 20px;
   display: flex;
 }
 
@@ -46,17 +44,18 @@ header {
   color: #000;
   text-decoration: none;
   line-height: 60px;
+  text-transform: uppercase;
 }
 
-a:visited {
+.nav__link:visited {
   color: #00ACDC;
 }
 
-a:hover {
+.nav__link:hover {
   color: #00ACDC;
 }
 
-img {
+.logo {
   display: block;
 }
 
@@ -78,4 +77,9 @@ img {
 .nav__item:first-child {
   margin-left: 0;
 }
+
+.nav__item:not(:last-child) {
+  margin-right: 20px;
+}
+
 
