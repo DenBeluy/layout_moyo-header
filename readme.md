@@ -5,6 +5,7 @@ The page should match the design Pixel Perfect: all the sizes, colors and distan
 
 > Here are the [Layout Tasks Instructions](https://mate-academy.github.io/layout_task-guideline)
 
+
 ## Requirements:
 
 - reset browser default margins
